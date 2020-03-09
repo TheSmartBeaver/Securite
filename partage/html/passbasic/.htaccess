@@ -1,0 +1,4 @@
+AuthName "Entrez le mot de passe"
+AuthUserFile /var/www/html/passbasic/.htpasswd
+AuthType Basic
+require valid-user 

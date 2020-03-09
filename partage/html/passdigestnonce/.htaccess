@@ -1,0 +1,6 @@
+AuthType Digest
+AuthName "digestnonce"
+AuthUserFile /var/www/html/passdigestnonce/.htpasswd
+AuthDigestNonceLifetime -1
+
+Require valid-user
